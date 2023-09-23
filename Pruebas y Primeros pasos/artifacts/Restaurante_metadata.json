@@ -1,0 +1,151 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "AlgunaMesaDisponible",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_cliente",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numeroMesa",
+						"type": "uint256"
+					}
+				],
+				"name": "NuevoClienteNuevaMesa",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numeroMesa",
+						"type": "uint256"
+					}
+				],
+				"name": "NuevoClienteViejaMesa",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "mesa",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "numeroMesa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombreCliente",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalClientes",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numeroMesa",
+						"type": "uint256"
+					}
+				],
+				"name": "verMesa",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Pruebas y Primeros pasos/Restaurante.sol": "Restaurante"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Pruebas y Primeros pasos/Restaurante.sol": {
+			"keccak256": "0x5ec124ebff568c506981eeb90c36dbf0b884d9e8e936634364def7c0c7492615",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d813ddf2ff2a905fb982d22d7f39198d5a7146412db242bfd7de2db56fe133bf",
+				"dweb:/ipfs/QmR9gVo8t3Cr4NyTNfpkzDcoZnCvSbFBypqb7b8VQV2wad"
+			]
+		}
+	},
+	"version": 1
+}

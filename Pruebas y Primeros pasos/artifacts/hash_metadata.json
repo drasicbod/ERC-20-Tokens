@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					}
+				],
+				"name": "calcularHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Pruebas y Primeros pasos/keccak.sol": "hash"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Pruebas y Primeros pasos/keccak.sol": {
+			"keccak256": "0x558001b1501502230b9dee7157cb3db19d6eb557b16ca46256a8d8ec49f9d4d7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2813e700dbbbbd79791295db56e2ff253cdcd4b2439a64657c86384746213330",
+				"dweb:/ipfs/QmfPLta45jyJw2RSxnLE9P1g59acagSio8eSs7JJHny5s8"
+			]
+		}
+	},
+	"version": 1
+}

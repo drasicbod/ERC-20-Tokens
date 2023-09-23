@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "prueba1",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PrimerContrato.sol": "PrimerContrato"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PrimerContrato.sol": {
+			"keccak256": "0x42d1cc9e4b5e27f2e18f43723e09da39732abdf46ed0e0aaa1dd82d404de699e",
+			"license": "AFL-1.1",
+			"urls": [
+				"bzz-raw://f91fd06b8794d0274e428683924689f93319e0d605019eee6ab2d608f6ec143d",
+				"dweb:/ipfs/QmUGiHPjbAfdKnnkYHKGuzDnTakyuwvrVTHiXkWLWrGLKQ"
+			]
+		}
+	},
+	"version": 1
+}

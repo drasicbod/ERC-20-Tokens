@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "a",
+						"type": "string"
+					}
+				],
+				"name": "calcularHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"keccak.sol": "hash"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"keccak.sol": {
+			"keccak256": "0xfd4ba1c46f70dcccaabd96c61ecd1e84ff9d2ba59474d9a8528aac28a057a656",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://de51539b0fde63076b98a66bb3221875934c7b3096d7bb2d735a8fd839216763",
+				"dweb:/ipfs/QmTQTQfVTU5Pp6uUDWg1CY3uv7mmDDp1uX6NSp9EPzF99d"
+			]
+		}
+	},
+	"version": 1
+}

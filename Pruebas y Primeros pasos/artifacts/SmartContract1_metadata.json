@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Factory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "MiContratoPersonal",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Pruebas y Primeros pasos/factory.sol": "SmartContract1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Pruebas y Primeros pasos/factory.sol": {
+			"keccak256": "0x46fe7c80a6971d248bd0ee71d7e06dd10b575643c3c2eebbd28c8ddb722e5960",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f1f413bcecfa6dc127d6a2c298436f8a879e6b9afbf093a30f98c22e4512936",
+				"dweb:/ipfs/QmSD6kMX3M6CSXzKHXX7UemRfA3Ry5TrZAD9mkr8Nu5gkY"
+			]
+		}
+	},
+	"version": 1
+}

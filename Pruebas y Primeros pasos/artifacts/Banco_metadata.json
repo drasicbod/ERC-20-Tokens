@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "nuevoCliente",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Pruebas y Primeros pasos/herencia.sol": "Banco"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Pruebas y Primeros pasos/herencia.sol": {
+			"keccak256": "0x1f065c53e5c4531337858446c07e09067637b4d5aea3f9ae4ec224bd7c73bdc4",
+			"urls": [
+				"bzz-raw://57756f2e481e6d48b238530ee4e0262d2e136e86b0df464515872e577e559eb4",
+				"dweb:/ipfs/QmPy2H9nMdQeyUE3Dr7BpV4Tk3zuu1fdfPWqnyKkrjQ4cU"
+			]
+		}
+	},
+	"version": 1
+}
